@@ -1,10 +1,10 @@
 package pub.game;
 
 public class EmptyBeer extends Beer{
-    private static int emptySpeed = -3;
+    private static final int EMPTY_BEER = 2;
 
     public EmptyBeer(int x, int tableIndex){
-        super(x, tableIndex, emptySpeed);
+        super(x, tableIndex, EMPTY_BEER);
     }
 
     //csapos összeszedi ...

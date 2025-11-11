@@ -1,4 +1,4 @@
-package pub;
+package pub.main;
 
 import pub.gui.GameFrame;
 
